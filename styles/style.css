@@ -429,6 +429,9 @@ nav .navbar .links li:hover .js-sub-menu {
 @media (max-width:450px) {
     nav .navbar .logo a {
         font-size: 23px;
+        position: absolute;
+        top: 5px;
+        left: 60px;
     }
 }
 @media (max-width:370px) {
@@ -1488,6 +1491,117 @@ nav .toggle {
     .team-section {
         min-height: 270vh;
     }
+}
+
+/* ***************************** REVIEW SECTION *********************** */
+.reviews{
+    position: relative;
+    top: 150px;
+    padding-top: 50px;
+}
+.reviews .title {
+    text-align: center;
+	padding-bottom: 40px;
+}
+.reviews .title h1 {
+    padding: 30px;
+    padding-bottom: 15px;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    color: #d12020;
+}
+.reviews .box-area {
+	padding: 30px;
+	position: relative;
+	display: block;
+	background: #fff;
+	color: #000;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin: 40px 0;
+}
+.reviews .box-area h5 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #d12020;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.reviews .box-area span {
+	color: #262626;
+	display: block;
+	font-size: 13px;
+	margin: 0 0 10px;
+	font-weight: 400;
+}
+.reviews .box-area .content {
+	color: #262626;
+}
+.reviews .box-area .img-area {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: -40px;
+	left: 0;
+	bottom: 0;
+	margin: 0 auto;
+	right: 0;
+	z-index: 1;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+.reviews .box-area .img-area img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+.reviews .socials {
+	margin-top: 30px;
+}
+.reviews .socials i {
+	margin: 0 10px;
+	color: #d12020;
+	font-size: 18px;
+}
+#testimonial_area .owl-nav {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+#testimonial_area .owl-prev, #testimonial_area .owl-next {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #d12020;
+	border-radius: 50%;
+	text-align: center;
+	background: #fff;
+	position: absolute;
+}
+#testimonial_area .owl-prev {
+	left: -60px;
+	top: -30px;
+}
+#testimonial_area .owl-next {
+	right: -60px;
+	top: -30px;
+}
+@media only screen and (max-width: 991px) {
+	.reviews .owl-nav {
+		display: none;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.reviews .box-area {
+		text-align: center;
+	}
+	.reviews .owl-nav {
+		display: none;
+	}
 }
 
 /************************************************* CONTACT Section ********************************************************/

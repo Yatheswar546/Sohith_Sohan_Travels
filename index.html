@@ -8,7 +8,7 @@
   <title>Sohith Sohan Travels</title>
 
   <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="./styles/lightbox.css">
+  <!-- <link rel="stylesheet" href="./styles/lightbox.css"> -->
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -30,7 +30,8 @@
   <!----------------------------------------------- NAVBAR Section -------------------------------------------------------->
   <div class="nav-section">
     <div class="top-bar">
-      <span>Contact Now : 8374178596</span>
+      <!-- <span>Contact Now : 8374178596</span> -->
+      <img src="./images/logo.png" alt="">
       <ul>
         <li><a href=""><i class='bx bxl-facebook'></i></a></li>
         <li><a href=""><i class='bx bxl-instagram'></i></a></li>
@@ -38,52 +39,133 @@
       </ul>
     </div>
     <nav>
-      <div class="logo">
-        <a href=""><img src="./images/logo.jpeg" alt="logo">Sohith Sohan Travels</a>
+      <div class="navbar">
+        <i class='bx bx-menu'></i>
+        <div class="logo"><a href="#">SohithSohan Travels Private Limited</a></div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">SohithSohan Travels Pvt. Ltd.</span>
+            <i class='bx bx-x'></i>
+          </div>
+          <ul class="links">
+            <li><a href="#home">Home</a></li>
+            <li>
+              <a href="#service">About</a>
+              <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li><a href="#service">Our Motto</a></li>
+                <li><a href="#service">Our Mission</a></li>
+                <li><a href="#service">Our Management</a></li>
+                <!-- <li class="more">
+                  <span><a href="#">Pricing</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="#">Trip</a></li>
+                    <li><a href="#">Monthly</a></li>
+                    <li><a href="#">Lease</a></li>
+                  </ul>
+                </li> -->
+              </ul>
+            </li>
+            <li>
+              <a href="#pricing">Pricing</a>
+              <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li><a href="#pricing">Trip</a></li>
+                <li><a href="#pricing">Monthly</a></li>
+                <li><a href="#pricing">Lease</a></li>
+                <!-- <li class="more">
+                  <span><a href="#">Pricing</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="#">Trip</a></li>
+                    <li><a href="#">Monthly</a></li>
+                    <li><a href="#">Lease</a></li>
+                  </ul>
+                </li> -->
+              </ul>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+              <!-- <i class='bx bxs-chevron-down js-arrow arrow '></i>
+              <ul class="js-sub-menu sub-menu">
+                <li><a href="#">Dynamic Clock</a></li>
+                <li><a href="#">Form Validation</a></li>
+                <li><a href="#">Card Slider</a></li>
+                <li><a href="#">Complete Website</a></li>
+              </ul> -->
+            </li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- <div class="search-box">
+          <i class='bx bx-search'></i>
+          <div class="input-box">
+            <input type="text" placeholder="Search...">
+          </div>
+        </div> -->
       </div>
-      <div class="toggle">
-        <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
-      </div>
-      <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#service">Vision</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#team">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <!-- <li><a href="#"></a></li>
-        <li><a href="#"></a></li> -->
-      </ul>
     </nav>
+    <!-- <header>
+      <div class="logo">
+        <a href="">Sohith Sohan Travels</a>
+      </div>
+      <input type="checkbox" id="menu-bar">
+      <label for="menu-bar">Menu</label>
+      <nav>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#service">About <span style="font-size: 20px;">&#709;</span> </a>
+            <ul>
+              <li><a href="#">Our Motto</a></li>
+              <li><a href="#">Our Mission</a></li>
+              <li><a href="#">Our Management</a></li>
+            </ul>
+          </li>
+          <li><a href="#pricing">Pricing <span style="font-size: 20px;">&#709;</span> </a>
+            <ul>
+              <li><a href="#">Trip</a></li>
+              <li><a href="#">Monthly</a></li>
+              <li><a href="#">Lease</a></li>
+            </ul>
+          </li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header> -->
   </div>
   <!-- ----------------------------------------BANNER SECTION -------------------------------------- -->
-
-  <div class="slider" id="home">
+  <div class="banner" id="home">
     <div class="myslider fade" style="display: block;">
       <div class="txt">
-        <h1>Sohith Sohan Travels</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. m blanditiis sit necessitatibus, quia, eum
-          id. Incidunt, laborum doloribus. Possimus, nobis.</p>
+        <h1>SohithSohan Travels</h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. m blanditiis sit necessitatibus, quia, eum
+          id. Incidunt, laborum doloribus. Possimus, nobis.</p> -->
       </div>
-      <img src="./images/banner1.jpeg" alt="banner1" style="width: 100%; height: 700px; opacity: 0.8;">
+      <img src="./images/banner1.jpg" alt="banner1" style="width: 100%; height: 700px; opacity: 0.8;">
     </div>
     <div class="myslider fade">
       <div class="txt">
-        <h1>Sohith Sohan Travels</h1>
+        <h1>SohithSohan Travels</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed soluta deserunt pariatur excepturi
           vitae architecto, quibusdam voluptates dolorem blanditiis sit necessitatibus, quia, eum id.
           Incidunt, laborum doloribus. Possimus, nobis.</p>
       </div>
-      <img src="./images/banner2.jpg" alt="banner1" style="width: 100%; height: 700px; opacity: 0.8;">
+      <img src="./images/banner2.jpg" alt="banner2" style="width: 100%; height: 700px; opacity: 0.6;">
     </div>
     <div class="myslider fade">
       <div class="txt">
-        <h1>Sohith Sohan Travels</h1>
+        <h1>SohithSohan Travels</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed soluta deserunt pariatur excepturi
           vitae architecto, quibusdam voluptates dolorem blanditiis sit necessitatibus, quia, eum id.
           Incidunt, laborum doloribus. Possimus, nobis.</p>
       </div>
-      <img src="./images/banner3.jpg" alt="banner1" style="width: 100%; height: 700px; opacity: 0.8;">
+      <img src="./images/banner3.jpg" alt="banner3" style="width: 100%; height: 700px; opacity: 0.8;">
     </div>
     <a class="prev" onclick="plusslide(-1)">&#10094;</a>
     <a class="next" onclick="plusslide(1)">&#10095;</a>
@@ -94,8 +176,29 @@
     </div>
   </div>
 
+  <!-- ------------------------------------- OUR CLIENTS --------------------------------->
+  <div class="clients">
+    <div class="container">
+      <h2 class="text-center font-weight-bold">Our CLIENTS</h2>
+      <section class="customer-logos slider">
+        <div class="slide"><img src="images/adidas.png" alt="logo"></div>
+        <div class="slide"><img src="images/facebook.png" alt="logo"></div>
+        <div class="slide"><img src="images/google.png" alt="logo"></div>
+        <div class="slide"><img src="images/instagram.png" alt="logo"></div>
+        <div class="slide"><img src="images/nike.png" alt="logo"></div>
+        <div class="slide"><img src="images/twitter.png" alt="logo"></div>
+        <div class="slide"><img src="images/uber.png" alt="logo"></div>
+        <div class="slide"><img src="images/youtube.png" alt="logo"></div>
+      </section>
+    </div>
+  </div>
+
+
   <!-- ---------------------------------------AIM VISION SECTION ------------------------------------------>
   <div class="services" id="service">
+    <div class="row">
+      <h2 class="heading">Our 3 M's of Success</h2>
+    </div>
     <div class="rows">
       <div class="row">
         <div class="column">
@@ -103,7 +206,7 @@
             <div class="icon-wrapper">
               <i class='bx bx-target-lock'></i>
             </div>
-            <h3>Our Aim</h3>
+            <h3>Our Motto</h3>
             <p>To become a vendor for the top reputed MNC companies. Our services provide a solid
               basis for and help to create a very safe and secure joyful journey atmosphere. We aim to be
               recognized as the industry leader for our specialized high quality and value-added services.</p>
@@ -140,326 +243,355 @@
     </div>
   </div>
 
-    <!-- ----------------------------------------PACKAGE INFO ---------------------------------------- -->
-    <section class="pricing" id="pricing">
-      <div class="wrapper">
-        <div class="table basic">
-          <div class="price-section">
-            <div class="price-area">
-              <div class="inner-area">
-                <span class="text">$</span>
-                <span class="price">29</span>
-              </div>
+  <!-- ----------------------------------------PACKAGE INFO ---------------------------------------- -->
+  <section class="pricing" id="pricing">
+    <div class="title">
+      <h1>Pricing</h1>
+    </div>
+    <div class="wrapper">
+      <div class="table basic">
+        <div class="price-section">
+          <div class="price-area">
+            <div class="inner-area">
+              <span class="text">$</span>
+              <span class="price">29</span>
             </div>
           </div>
-          <div class="package-name"></div>
-          <ul class="features">
-            <li>
-              <span class="list-name">One Selected Template</span>
-              <span class="icon check"><i class="fas fa-check"></i></span>
-            </li>
-            <li>
-              <span class="list-name">100% Responsive Design</span>
-              <span class="icon check"><i class="fas fa-check"></i></span>
-            </li>
-            <li>
-              <span class="list-name">Credit Remove Permission</span>
-              <span class="icon cross"><i class="fas fa-times"></i></span>
-            </li>
-            <li>
-              <span class="list-name">Lifetime Template Updates</span>
-              <span class="icon cross"><i class="fas fa-times"></i></span>
-            </li>
-          </ul>
-          <div class="btn"><button>Purchase</button></div>
         </div>
-        <div class="table premium">
-          <div class="ribbon"><span>Recommend</span></div>
-          <div class="price-section">
-            <div class="price-area">
-              <div class="inner-area">
-                <span class="text">$</span>
-                <span class="price">59</span>
-              </div>
-            </div>
-          </div>
-          <div class="package-name"></div>
-          <ul class="features">
-            <li>
-              <span class="list-name">Five Existing Templates</span>
-              <span class="icon check"><i class="fas fa-check"></i></span>
-            </li>
-            <li>
-              <span class="list-name">100% Responsive Design</span>
-              <span class="icon check"><i class="fas fa-check"></i></span>
-            </li>
-            <li>
-              <span class="list-name">Credit Remove Permission</span>
-              <span class="icon check"><i class="fas fa-check"></i></span>
-            </li>
-            <li>
-              <span class="list-name">Lifetime Template Updates</span>
-              <span class="icon cross"><i class="fas fa-times"></i></span>
-            </li>
-          </ul>
-          <div class="btn"><button>Purchase</button></div>
-        </div>
-        <div class="table ultimate">
-          <div class="price-section">
-            <div class="price-area">
-              <div class="inner-area">
-                <span class="text">$</span>
-                <span class="price">99</span>
-              </div>
-            </div>
-          </div>
-          <div class="package-name"></div>
-          <ul class="features">
-            <li>
-              <span class="list-name">All Existing Templates</span>
-              <span class="icon check"><i class="fas fa-check"></i></span>
-            </li>
-            <li>
-              <span class="list-name">100% Responsive Design</span>
-              <span class="icon check"><i class="fas fa-check"></i></span>
-            </li>
-            <li>
-              <span class="list-name">Credit Remove Permission</span>
-              <span class="icon check"><i class="fas fa-check"></i></span>
-            </li>
-            <li>
-              <span class="list-name">Lifetime Template Updates</span>
-              <span class="icon check"><i class="fas fa-check"></i></span>
-            </li>
-          </ul>
-          <div class="btn"><button>Purchase</button></div>
-        </div>
+        <div class="package-name"></div>
+        <ul class="features">
+          <li>
+            <span class="list-name">One Selected Template</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">100% Responsive Design</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">Credit Remove Permission</span>
+            <span class="icon cross"><i class="fas fa-times"></i></span>
+          </li>
+          <li>
+            <span class="list-name">Lifetime Template Updates</span>
+            <span class="icon cross"><i class="fas fa-times"></i></span>
+          </li>
+        </ul>
+        <div class="btn"><button>Book Now</button></div>
       </div>
-
-    </section>
-
-    <!-- ------------------------------- GALLERY SECTION --------------------------- -->
-    <div class="gallery" id="gallery">
-      <h1>Gallery</h1>
-      <div class="images">
-        <a href="./images/car-1.jpg" data-lightbox="pics" data-title="caption1">
-          <img src="./images/car-1.jpg" alt="">
-        </a>
-        <a href="./images/car-2.jpg" data-lightbox="pics" data-title="caption2">
-          <img src="./images/car-2.jpg" alt="">
-        </a>
-        <a href="./images/car-3.jpg" data-lightbox="pics" data-title="caption3">
-          <img src="./images/car-3.jpg" alt="">
-        </a>
-        <a href="./images/car-4.jpg" data-lightbox="pics" data-title="captio4">
-          <img src="./images/car-4.jpg" alt="">
-        </a>
-        <a href="./images/car-5.jpg" data-lightbox="pics" data-title="caption5">
-          <img src="./images/car-5.jpg" alt="">
-        </a>
-        <a href="./images/car-6.jpg" data-lightbox="pics" data-title="caption6">
-          <img src="./images/car-6.jpg" alt="">
-        </a>
-        <a href="./images/car-7.jpg" data-lightbox="pics" data-title="caption7">
-          <img src="./images/car-7.jpg" alt="">
-        </a>
-        <a href="./images/car-8.jpg" data-lightbox="pics" data-title="caption8">
-          <img src="./images/car-8.jpg" alt="">
-        </a>
+      <div class="table premium">
+        <div class="ribbon"><span>Recommend</span></div>
+        <div class="price-section">
+          <div class="price-area">
+            <div class="inner-area">
+              <span class="text">$</span>
+              <span class="price">59</span>
+            </div>
+          </div>
+        </div>
+        <div class="package-name"></div>
+        <ul class="features">
+          <li>
+            <span class="list-name">Five Existing Templates</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">100% Responsive Design</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">Credit Remove Permission</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">Lifetime Template Updates</span>
+            <span class="icon cross"><i class="fas fa-times"></i></span>
+          </li>
+        </ul>
+        <div class="btn"><button>Book Now</button></div>
+      </div>
+      <div class="table ultimate">
+        <div class="price-section">
+          <div class="price-area">
+            <div class="inner-area">
+              <span class="text">$</span>
+              <span class="price">99</span>
+            </div>
+          </div>
+        </div>
+        <div class="package-name"></div>
+        <ul class="features">
+          <li>
+            <span class="list-name">All Existing Templates</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">100% Responsive Design</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">Credit Remove Permission</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">Lifetime Template Updates</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+        </ul>
+        <div class="btn"><button>Book Now</button></div>
       </div>
     </div>
 
-    <!-- ----------------------- TEAM SECTION ------------------------------------------ -->
-    <section class="team" id="team">
-      <div class="team-section">
-        <div class="container">
-          <div class="row">
-            <div class="title">
-              <h1>Our Team</h1>
-              <p>Our main objective of the company is to manage all the travel requirements of the companies while
-                providing ease and sort of
-                convenience to the Employee's and add value to the travel sector of different companies.</p>
-            </div>
-          </div>
-          <div class="team-card">
-            <div class="card">
-              <div class="image-section">
-                <img src="./images/team1.jpg" alt="">
-              </div>
-              <div class="content">
-                <h3>Mr. Madanapalli Anjaneyulu</h3>
-                <p>Mr. Madanapalli Anjaneyulu was a entrepreneur by profession. He is the one , brains behind the
-                  organisation who work so hard to make his virtual thoughts into reality. Always be different, think
-                  different and live differently, is his policy. Anything and everything he wish for company can happen.
-                  He is playing very crucial rolefor our organization and his innovative ideas and skills are always
-                  commendable by all. After his successful career in serval business he entered the Travel business. In
-                  September 2022 he founded SohithSohan Tour and Travel Pvt Ltd and leads the team in Hyderabad.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="image-section">
-                <img src="./images/team2.png" alt="" height="200px" width="200px">
-              </div>
-              <div class="content">
-                <h3>Mr.PREM AMABATI SIVA</h3>
-                <p>Mr.PREM AMABATI SIVA was a Software Engineer by profession, but Inspite of his profession he has
-                  innovative ideas to handle business so he manages both his profession and passion with his financial
-                  and creative skills to develop this organization.He is always helpful for us with his capabilities and
-                  we are also admiring his efforts done to groom our company. We do give first acknowledgment to his
-                  priceless contribution in excelling our organization at top notch of the industry.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="image-section">
-                <img src="./images/team3.png" alt="">
-              </div>
-              <div class="content">
-                <h3>Mrs.Tanguturi Venkata Sangeetha Lakshmi</h3>
-                <p>Mrs.Tanguturi Venkata Sangeetha Lakshmi was a Employee in startup company as a trainee Software
-                  Engineer later with the interest in business and to support his partner Mr. Madanapalli Anjaneyulu
-                  both founded SohithSohan Tour and Travel Pvt Ltd. She is always helpful for us in managing all the
-                  accounts regarding our company. Her vital monetary support has been given huge sign of relief to us in
-                  the establishment of our company and to get highlighted in the industry successfully. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  </section>
 
-    <!-------------------------------------------------- CONTACT  Section --------------------------------------------------->
-    <div class="contact" id="contact">
-      <div class="content">
-        <h2>Contact Us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nesciunt vero ipsum, qui voluptatum quas
-          molestiae eos. Voluptatum corrupti voluptas, culpa neque earum, quis veritatis delectus repellat
-          laudantium recusandae voluptate.</p>
-      </div>
+  <!-- ------------------------------- GALLERY SECTION --------------------------- -->
+  <div class="gallery" id="gallery">
+    <h1>Gallery</h1>
+    <div class="images">
+      <a href="./images/car-1.jpg" data-lightbox="pics" data-title="caption1">
+        <img src="./images/car-1.jpg" alt="">
+      </a>
+      <a href="./images/car-2.jpg" data-lightbox="pics" data-title="caption2">
+        <img src="./images/car-2.jpg" alt="">
+      </a>
+      <a href="./images/car-3.jpg" data-lightbox="pics" data-title="caption3">
+        <img src="./images/car-3.jpg" alt="">
+      </a>
+      <a href="./images/car-4.jpg" data-lightbox="pics" data-title="captio4">
+        <img src="./images/car-4.jpg" alt="">
+      </a>
+      <a href="./images/car-5.jpg" data-lightbox="pics" data-title="caption5">
+        <img src="./images/car-5.jpg" alt="">
+      </a>
+      <a href="./images/car-6.jpg" data-lightbox="pics" data-title="caption6">
+        <img src="./images/car-6.jpg" alt="">
+      </a>
+      <a href="./images/car-7.jpg" data-lightbox="pics" data-title="caption7">
+        <img src="./images/car-7.jpg" alt="">
+      </a>
+      <a href="./images/car-8.jpg" data-lightbox="pics" data-title="caption8">
+        <img src="./images/car-8.jpg" alt="">
+      </a>
+    </div>
+  </div>
+
+  <!-- ----------------------- TEAM SECTION ------------------------------------------ -->
+  <section class="team" id="team">
+    <div class="team-section">
       <div class="container">
-        <div class="contactinfo">
-          <div class="box">
-            <div class="icon"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
-            <div class="text">
-              <h3>Address</h3>
-              <p>36-19-9 Near Old Ramarao Hospital, <br>Reddy Kancharapalem, <br>Visakhapatnam</p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="icon"><i class="fa-regular fa-envelope"></i></div>
-            <div class="text">
-              <h3>Email</h3>
-              <p>sohithsohantravels@gmail.com</p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="icon"><i class="fa-solid fa-phone"></i></div>
-            <div class="text">
-              <h3>Phone</h3>
-              <p>79012 67908</p>
-            </div>
+        <div class="row">
+          <div class="title">
+            <h1>Our Team</h1>
+            <p>Our main objective of the company is to manage all the travel requirements of the companies while
+              providing ease and sort of
+              convenience to the Employee's and add value to the travel sector of different companies.</p>
           </div>
         </div>
-        <div class="contactform">
-          <form action="">
-            <h2>Send Message</h2>
-            <div class="inputbox">
-              <input type="text" placeholder="Full Name">
+        <div class="team-card">
+          <div class="card">
+            <div class="image-section">
+              <img src="./images/team1.jpg" alt="">
             </div>
-            <div class="inputbox">
-              <input type="email" placeholder="Email">
+            <div class="content">
+              <h3>Mr. Madanapalli Anjaneyulu</h3>
+              <p>Mr. Madanapalli Anjaneyulu was a entrepreneur by profession. He is the one , brains behind the
+                organisation who work so hard to make his virtual thoughts into reality. Always be different, think
+                different and live differently, is his policy. Anything and everything he wish for company can happen.
+                He is playing very crucial rolefor our organization and his innovative ideas and skills are always
+                commendable by all. After his successful career in serval business he entered the Travel business. In
+                September 2022 he founded SohithSohan Tour and Travel Pvt Ltd and leads the team in Hyderabad.</p>
             </div>
-            <div class="inputbox">
-              <textarea required="required" placeholder="Type your message......"></textarea>
-            </div>
-            <div class="inputbox">
-              <input type="submit" name="" id="submit" value="Send">
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <!-------------------------------------------------- FOOTER Section ------------------------------------------------------->
-    <footer>
-      <div class="footer">
-        <div class="container">
-          <div class="about">
-            <h3>About Us</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum odio adipisci ad. Quaerat dolores
-              iure unde fugit repudiandae sint sunt libero doloremque autem, deserunt possimus in veritatis ad
-              enim et?</p>
-            <ul class="icons">
-              <li><a href=""><i class="fab fa-facebook-f" style="color: #fff;"></i></a></li>
-              <li><a href=""><i class="fab fa-twitter" style="color: #fff;"></i></a></li>
-              <li><a href=""><i class="fab fa-instagram" style="color: #fff;"></i></a></li>
-              <li><a href=""><i class="fab fa-whatsapp" style="color: #fff;"></i></a></li>
-            </ul>
           </div>
-          <div class="quicklinks">
-            <h3>QuickLinks</h3>
-            <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Privacy policy</a></li>
-              <li><a href="#">Help</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+          <div class="card">
+            <div class="image-section">
+              <img src="./images/team2.png" alt="" height="200px" width="200px">
+            </div>
+            <div class="content">
+              <h3>Mr. Prem Amabati Siva</h3>
+              <p>Mr. Prem Amabati Siva was a Software Engineer by profession, but Inspite of his profession he has
+                innovative ideas to handle business so he manages both his profession and passion with his financial
+                and creative skills to develop this organization.He is always helpful for us with his capabilities and
+                we are also admiring his efforts done to groom our company. We do give first acknowledgment to his
+                priceless contribution in excelling our organization at top notch of the industry.</p>
+            </div>
           </div>
-          <div class="quicklinks">
-            <h3>Services</h3>
-            <ul>
-              <li><a href="#">Rental Car</a></li>
-              <li><a href="#">Car Wash</a></li>
-              <li><a href="#">Lease</a></li>
-              <li><a href="#">Canversing</a></li>
-              <li><a href="#">Trips</a></li>
-            </ul>
-          </div>
-          <div class="footercontact">
-            <h3>Contact Us</h3>
-            <ul class="info">
-              <li>
-                <span><i class="fa-sharp fa-solid fa-location-dot"></i></span>
-                <span>D.No. 39-19-9<br>
-                  Kancharapalem, Vizag, <br>India</span>
-              </li>
-              <li>
-                <span><i class="fa-solid fa-phone"></i></i></span>
-                <p><a href="#">8326178371</a><br></p>
-                <!-- <p><a href="#">7901255908</a><br></p> -->
-              </li>
-              <li>
-                <span><i class="fa-regular fa-envelope"></i></span>
-                <p><a href="#">sohithsohantravels@gmail.com</a></p>
-              </li>
-            </ul>
+          <div class="card">
+            <div class="image-section">
+              <img src="./images/team3.png" alt="">
+            </div>
+            <div class="content">
+              <h3>Mrs.Tanguturi Venkata Sangeetha Lakshmi</h3>
+              <p>Mrs.Tanguturi Venkata Sangeetha Lakshmi was a Employee in startup company as a trainee Software
+                Engineer later with the interest in business and to support his partner Mr. Madanapalli Anjaneyulu
+                both founded SohithSohan Tour and Travel Pvt Ltd. She is always helpful for us in managing all the
+                accounts regarding our company. Her vital monetary support has been given huge sign of relief to us in
+                the establishment of our company and to get highlighted in the industry successfully. </p>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <div class="copyright">
-      <p>Copright © 2022 Pravishree Designs | All Rights Reserved</p>
     </div>
+  </section>
 
-    <!-- ------------------------------------- scriot part ------------------------------------------------->
-    <script src="./js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="lightbox-plus-jquery.min.js"></script>
-    <script>
-      $(function () {
-        $(".toggle").on("click", function () {
-          if ($(".menu").hasClass("active")) {
-            $(".menu").removeClass("active");
-            $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
-          }
-          else {
-            $(".menu").addClass("active");
-            $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
-          }
-        });
+  <!-------------------------------------------------- CONTACT  Section --------------------------------------------------->
+  <div class="contact" id="contact">
+    <div class="content">
+      <h2>Contact Us</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nesciunt vero ipsum, qui voluptatum quas
+        molestiae eos. Voluptatum corrupti voluptas, culpa neque earum, quis veritatis delectus repellat
+        laudantium recusandae voluptate.</p>
+    </div>
+    <div class="container">
+      <div class="contactinfo">
+        <div class="box">
+          <div class="icon"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+          <div class="text">
+            <h3>Address</h3>
+            <p>36-19-9 Near Old Ramarao Hospital, <br>Reddy Kancharapalem, <br>Visakhapatnam</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>sohithsohantravels@gmail.com</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa-solid fa-phone"></i></div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>79012 67908</p>
+          </div>
+        </div>
+      </div>
+      <div class="contactform">
+        <form action="">
+          <h2>Send Message</h2>
+          <div class="inputbox">
+            <input type="text" placeholder="Full Name">
+          </div>
+          <div class="inputbox">
+            <input type="email" placeholder="Email">
+          </div>
+          <div class="inputbox">
+            <input type="text" placeholder="Phone No.">
+          </div>
+          <div class="inputbox">
+            <textarea required="required" placeholder="Type your message......"></textarea>
+          </div>
+          <div class="inputbox">
+            <input type="submit" name="" id="submit" value="Send">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-------------------------------------------------- FOOTER Section ------------------------------------------------------->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="about">
+          <h3>About Us</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum odio adipisci ad. Quaerat dolores
+            iure unde fugit repudiandae sint sunt libero doloremque autem, deserunt possimus in veritatis ad
+            enim et?</p>
+          <ul class="icons">
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <!-- <li><a href=""><i class="fab fa-twitter" style="color: #fff;"></i></a></li> -->
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+        <div class="quicklinks">
+          <h3>QuickLinks</h3>
+          <ul>
+            <li><a href="#team">About</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="quicklinks">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Rental Car</a></li>
+            <li><a href="#">Car Wash</a></li>
+            <li><a href="#">Lease</a></li>
+            <li><a href="#">Canversing</a></li>
+            <li><a href="#">Trips</a></li>
+          </ul>
+        </div>
+        <div class="footercontact">
+          <h3>Contact Us</h3>
+          <ul class="info">
+            <li>
+              <span><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+              <span>D.No. 39-19-9<br>
+                Kancharapalem, Vizag, <br>India</span>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-phone"></i></i></span>
+              <p><a href="#">8326178371</a><br></p>
+              <!-- <p><a href="#">7901255908</a><br></p> -->
+            </li>
+            <li>
+              <span><i class="fa-regular fa-envelope"></i></span>
+              <p><a href="#">sohithsohantravels@gmail.com</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright">
+    <p>Copright © 2022 Pravishree Designs | All Rights Reserved</p>
+  </div>
+
+  <!-- ------------------------------------- scriot part ------------------------------------------------->
+  <script src="./js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <!-- <script src="lightbox-plus-jquery.min.js"></script> -->
+  <script>
+    $(function () {
+      $(".toggle").on("click", function () {
+        if ($(".menu").hasClass("active")) {
+          $(".menu").removeClass("active");
+          $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+        }
+        else {
+          $(".menu").addClass("active");
+          $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+        }
       });
-    </script>
+    });
+    $(document).ready(function () {
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          setting: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          setting: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+  </script>
 </body>
 
 </html>
